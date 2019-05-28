@@ -1,0 +1,5 @@
+E:\潮流计算\PQ_PF\PQ_PF\obj\Debug\ResolveAssemblyReference.cache
+E:\潮流计算\PQ_PF\PQ_PF\bin\Debug\PQ_PF.exe
+E:\潮流计算\PQ_PF\PQ_PF\bin\Debug\PQ_PF.pdb
+E:\潮流计算\PQ_PF\PQ_PF\obj\Debug\PQ_PF.exe
+E:\潮流计算\PQ_PF\PQ_PF\obj\Debug\PQ_PF.pdb

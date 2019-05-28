@@ -1,0 +1,45 @@
+NOTES ABOUT THE STRUCTURE OF INPUT.TXT
+
+LINE 1: OVERALL PARAMETERS
+
+sample from file :    5 1 4 1.0e-5 200 1 1 0
+where:
+5 	= Number of Lines (Num_Line)
+1 	= Number of generators (Num_Gen)
+4	= Number of Loads (Num_Load)
+1.0e-5	= Eps
+200	= Maximum Iterations (Iter_Max)
+1	= Initial Voltage Flag (VolIni_Flag)
+1	= Res. Voltage (VolRest_Flag)
+1	= Save Identifier (if 1, it will save an output file, if 0 it will not save output. Filename will be : if input file=input.txt, then output file will be input_PF.txt
+
+LINES 2 TO 6: LINE PARAMETERS (Num_Line = 5 that's why there are 5 entries here)
+sample from file (line 2):    2   3   0   0.08   0.30  0.25 
+where:
+2	= Node Number (Node_No)
+3	= Connecting to Node No 
+0 	= Flag (node type)
+0.08						(line resistance value)
+0.30	= these 3 values refers to RXBK values 	(line reactance value)
+0.25					       	(line to accommodate the half value or the transformer ratio)
+
+LINE 7 : GENERATOR Parameters (Num_Gen = 1 that's why there is only 1 entry here)
+sample from file (line 7) :   4  0   1.05   0
+where:
+4	=	Node_No
+0	=	Flag (gen. type)
+1.05	=	PQV
+0	=	PQV
+
+LINES 8 TO 11: LOAD PARAMETERS (Num_Load = 4 that's why there are 4 entries here)
+sample from file (line 8) :   5   0   0.0  0.0  0.0  0.0  -2.579427  -2.299402
+where:
+5 	=	Node No.
+0	=	Flag (lode type)
+0.0						
+0.0
+0.0
+0.0	=	these 6 values refer to ABC (impedance component of the static chars. of the load into the diagonal elements of the admittance matrix
+-2.579427
+-2.299402
+

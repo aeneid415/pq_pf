@@ -1,0 +1,4 @@
+C:\Users\ITSACK\Downloads\04490773PQ_PF\PQ_PF\PQ_PF\obj\Debug\PQ_PF.exe
+C:\Users\ITSACK\Downloads\04490773PQ_PF\PQ_PF\PQ_PF\obj\Debug\PQ_PF.pdb
+C:\Users\ITSACK\Downloads\04490773PQ_PF\PQ_PF\PQ_PF\bin\Debug\PQ_PF.exe
+C:\Users\ITSACK\Downloads\04490773PQ_PF\PQ_PF\PQ_PF\bin\Debug\PQ_PF.pdb
